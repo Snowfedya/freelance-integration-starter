@@ -1,0 +1,19 @@
+[project]
+name = "freelance-integration-starter"
+version = "0.1.0"
+description = "A tested FastAPI webhook starter with HMAC verification, idempotency, transformation, and delivery logs"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "httpx>=0.28,<1",
+  "uvicorn>=0.34,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<10",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

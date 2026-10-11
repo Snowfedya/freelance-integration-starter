@@ -1,0 +1,7 @@
+pyproject.toml
+freelance_integration_starter.egg-info/PKG-INFO
+freelance_integration_starter.egg-info/SOURCES.txt
+freelance_integration_starter.egg-info/dependency_links.txt
+freelance_integration_starter.egg-info/requires.txt
+freelance_integration_starter.egg-info/top_level.txt
+tests/test_api.py
